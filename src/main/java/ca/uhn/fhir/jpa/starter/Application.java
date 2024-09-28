@@ -25,19 +25,19 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Import;
 
-@ServletComponentScan(basePackageClasses = {RestfulServer.class})
-@SpringBootApplication(exclude = {ElasticsearchRestClientAutoConfiguration.class, ThymeleafAutoConfiguration.class})
+@ServletComponentScan(basePackageClasses = { RestfulServer.class })
+@SpringBootApplication(exclude = { ElasticsearchRestClientAutoConfiguration.class, ThymeleafAutoConfiguration.class })
 @Import({
-	StarterCrR4Config.class,
-	StarterCrDstu3Config.class,
-	StarterCdsHooksConfig.class,
-	SubscriptionSubmitterConfig.class,
-	SubscriptionProcessorConfig.class,
-	SubscriptionChannelConfig.class,
-	WebsocketDispatcherConfig.class,
-	MdmConfig.class,
-	JpaBatch2Config.class,
-	Batch2JobsConfig.class
+		StarterCrR4Config.class,
+		StarterCrDstu3Config.class,
+		StarterCdsHooksConfig.class,
+		SubscriptionSubmitterConfig.class,
+		SubscriptionProcessorConfig.class,
+		SubscriptionChannelConfig.class,
+		WebsocketDispatcherConfig.class,
+		MdmConfig.class,
+		JpaBatch2Config.class,
+		Batch2JobsConfig.class
 })
 public class Application extends SpringBootServletInitializer {
 
@@ -48,7 +48,6 @@ public class Application extends SpringBootServletInitializer {
 		// Server is now accessible at eg. http://localhost:8080/fhir/metadata
 		// UI is now accessible at http://localhost:8080/
 	}
-
 
 	@Autowired
 	AutowireCapableBeanFactory beanFactory;
