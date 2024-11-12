@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "92de12eb-511b-4832-a045-84fdb323a5f9",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/Patient",
+        "url": "http://localhost:8080/fhir/Patient",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2024-09-29T02:25:40.995Z",
+        "modified": "2024-09-29T04:38:40.417Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            },
+            {
+                "name": "Authorization",
+                "value": "Basic c29tZXVzZXI6dGhlcGFzc3dvcmQ="
+            }
+        ]
+    }
+]

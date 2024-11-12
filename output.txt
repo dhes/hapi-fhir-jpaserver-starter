@@ -1,0 +1,8 @@
+[INFO] Scanning for projects...
+[WARNING] The project ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter:war:7.4.0 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] ------------< ca.uhn.hapi.fhir:hapi-fhir-jpaserver-starter >------------
+[INFO] Building HAPI FHIR JPA Server - Starter Project 7.4.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from openmrs-repo: https://mavenrepo.openmrs.org/public/org/springframework/security/spring-security-core/6.2.4/spring-security-core-6.2.4.jar

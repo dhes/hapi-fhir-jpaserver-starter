@@ -1,3 +1,6 @@
+# protect your passwords
+.env
+
 *.orig
 target/
 *.iml
